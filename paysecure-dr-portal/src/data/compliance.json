@@ -1,0 +1,32 @@
+[
+  {
+    "id": "ADR-001-topology-selection",
+    "title": "ADR-001: Topology Selection for Multi-Region Disaster Recovery",
+    "tags": [
+      "failover",
+      "split-brain",
+      "cache",
+      "kafka",
+      "dns",
+      "encryption",
+      "secrets",
+      "kubernetes",
+      "network",
+      "scaling",
+      "rollback",
+      "degradation",
+      "compliance",
+      "data-stores",
+      "replication",
+      "rpo-rto",
+      "architecture"
+    ],
+    "frameworks": [
+      "PCI-DSS v4.0",
+      "RBI",
+      "NPCI UPI",
+      "India Data Localisation"
+    ],
+    "file": "ADR-001-topology-selection.md"
+  }
+]

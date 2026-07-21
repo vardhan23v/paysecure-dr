@@ -1,0 +1,374 @@
+[
+  {
+    "id": "RB-001-region-failure",
+    "title": "RB-001: Complete Region Failure",
+    "tags": [
+      "P1",
+      "failover",
+      "split-brain",
+      "cache",
+      "kafka",
+      "dns",
+      "encryption",
+      "secrets",
+      "kubernetes",
+      "network",
+      "scaling",
+      "rollback",
+      "degradation",
+      "compliance",
+      "data-stores",
+      "replication",
+      "rpo-rto"
+    ],
+    "owner": "SRE Lead",
+    "eta": "5m",
+    "classification": "P1 — Sev 0",
+    "complianceFrameworks": [
+      "PCI-DSS v4.0",
+      "RBI",
+      "NPCI UPI",
+      "India Data Localisation"
+    ],
+    "file": "RB-001-region-failure.md"
+  },
+  {
+    "id": "RB-002-database-split-brain",
+    "title": "RB-002: Database Split-Brain Recovery",
+    "tags": [
+      "P1",
+      "failover",
+      "split-brain",
+      "cache",
+      "kafka",
+      "encryption",
+      "secrets",
+      "kubernetes",
+      "network",
+      "rollback",
+      "compliance",
+      "data-stores",
+      "replication",
+      "rpo-rto",
+      "architecture"
+    ],
+    "owner": "Database Reliability Lead",
+    "eta": "15m",
+    "classification": "P1 — Sev 0",
+    "complianceFrameworks": [
+      "PCI-DSS v4.0",
+      "RBI",
+      "NPCI UPI",
+      "India Data Localisation"
+    ],
+    "file": "RB-002-database-split-brain.md"
+  },
+  {
+    "id": "RB-003-kafka-partition-loss",
+    "title": "RB-003: Kafka Partition Loss & Recovery",
+    "tags": [
+      "P1",
+      "failover",
+      "split-brain",
+      "kafka",
+      "encryption",
+      "kubernetes",
+      "network",
+      "rollback",
+      "degradation",
+      "compliance",
+      "data-stores",
+      "replication",
+      "rpo-rto",
+      "architecture"
+    ],
+    "owner": "Data Platform Lead",
+    "eta": "10m",
+    "classification": "P1 — Sev 1",
+    "complianceFrameworks": [
+      "PCI-DSS v4.0",
+      "RBI",
+      "NPCI UPI",
+      "India Data Localisation"
+    ],
+    "file": "RB-003-kafka-partition-loss.md"
+  },
+  {
+    "id": "RB-004-cache-corruption",
+    "title": "RB-004: Cache Corruption & Recovery",
+    "tags": [
+      "P1",
+      "failover",
+      "split-brain",
+      "cache",
+      "encryption",
+      "kubernetes",
+      "scaling",
+      "rollback",
+      "degradation",
+      "compliance",
+      "data-stores",
+      "replication",
+      "rpo-rto"
+    ],
+    "owner": "Platform Engineering Lead",
+    "eta": "5m",
+    "classification": "P1 — Sev 1",
+    "complianceFrameworks": [
+      "PCI-DSS v4.0",
+      "RBI",
+      "NPCI UPI",
+      "India Data Localisation"
+    ],
+    "file": "RB-004-cache-corruption.md"
+  },
+  {
+    "id": "RB-005-dns-failover",
+    "title": "RB-005: DNS Failover",
+    "tags": [
+      "P1",
+      "failover",
+      "dns",
+      "encryption",
+      "network",
+      "scaling",
+      "rollback",
+      "degradation",
+      "compliance",
+      "rpo-rto"
+    ],
+    "owner": "Network Engineer / SRE",
+    "eta": "5m",
+    "classification": "P1 — Sev 1",
+    "complianceFrameworks": [
+      "PCI-DSS v4.0",
+      "RBI",
+      "NPCI UPI",
+      "India Data Localisation"
+    ],
+    "file": "RB-005-dns-failover.md"
+  },
+  {
+    "id": "RB-006-peak-load-failover",
+    "title": "RB-006: Peak-Load Failover",
+    "tags": [
+      "P1",
+      "failover",
+      "cache",
+      "kafka",
+      "dns",
+      "encryption",
+      "kubernetes",
+      "scaling",
+      "rollback",
+      "degradation",
+      "compliance",
+      "data-stores",
+      "replication",
+      "rpo-rto"
+    ],
+    "owner": "SRE Lead / Platform Engineer",
+    "eta": "5m",
+    "classification": "P1 — Sev 1",
+    "complianceFrameworks": [
+      "PCI-DSS v4.0",
+      "RBI",
+      "NPCI UPI",
+      "India Data Localisation"
+    ],
+    "file": "RB-006-peak-load-failover.md"
+  },
+  {
+    "id": "RB-007-kms-key-compromise",
+    "title": "RB-007: KMS Key Compromise",
+    "tags": [
+      "P0",
+      "failover",
+      "split-brain",
+      "cache",
+      "kafka",
+      "encryption",
+      "secrets",
+      "kubernetes",
+      "scaling",
+      "rollback",
+      "degradation",
+      "compliance",
+      "data-stores",
+      "replication",
+      "rpo-rto"
+    ],
+    "owner": "Security Engineer / Platform Engineer",
+    "eta": "15m",
+    "classification": "P0 — Sev 0",
+    "complianceFrameworks": [
+      "PCI-DSS v4.0",
+      "RBI",
+      "NPCI UPI",
+      "India Data Localisation",
+      "DPDP Act"
+    ],
+    "file": "RB-007-kms-key-compromise.md"
+  },
+  {
+    "id": "RB-008-secrets-rotation",
+    "title": "RB-008: Secrets Rotation",
+    "tags": [
+      "P1",
+      "failover",
+      "split-brain",
+      "cache",
+      "kafka",
+      "encryption",
+      "secrets",
+      "kubernetes",
+      "scaling",
+      "rollback",
+      "degradation",
+      "compliance",
+      "data-stores",
+      "replication",
+      "rpo-rto"
+    ],
+    "owner": "Security Engineer / Platform Engineer",
+    "eta": "10m",
+    "classification": "P1 — Sev 1",
+    "complianceFrameworks": [
+      "PCI-DSS v4.0",
+      "RBI",
+      "NPCI UPI",
+      "India Data Localisation"
+    ],
+    "file": "RB-008-secrets-rotation.md"
+  },
+  {
+    "id": "RB-009-eks-node-failure",
+    "title": "RB-009: EKS Node Failure & Recovery",
+    "tags": [
+      "P1",
+      "failover",
+      "cache",
+      "kafka",
+      "dns",
+      "kubernetes",
+      "network",
+      "scaling",
+      "rollback",
+      "degradation",
+      "compliance",
+      "data-stores",
+      "rpo-rto",
+      "architecture"
+    ],
+    "owner": "Platform Engineering Lead",
+    "eta": "10m",
+    "classification": "P1 — Sev 1",
+    "complianceFrameworks": [
+      "PCI-DSS v4.0",
+      "RBI",
+      "NPCI UPI",
+      "India Data Localisation"
+    ],
+    "file": "RB-009-eks-node-failure.md"
+  },
+  {
+    "id": "RB-010-network-partition",
+    "title": "RB-010: Network Partition & Recovery",
+    "tags": [
+      "P1",
+      "failover",
+      "split-brain",
+      "cache",
+      "kafka",
+      "dns",
+      "encryption",
+      "secrets",
+      "kubernetes",
+      "network",
+      "scaling",
+      "rollback",
+      "degradation",
+      "compliance",
+      "data-stores",
+      "replication",
+      "rpo-rto",
+      "architecture"
+    ],
+    "owner": "Network Engineering Lead",
+    "eta": "10m",
+    "classification": "P1 — Sev 0",
+    "complianceFrameworks": [
+      "PCI-DSS v4.0",
+      "RBI",
+      "NPCI UPI",
+      "India Data Localisation"
+    ],
+    "file": "RB-010-network-partition.md"
+  },
+  {
+    "id": "RB-011-partial-degradation",
+    "title": "RB-011: Partial Regional Degradation",
+    "tags": [
+      "P1",
+      "failover",
+      "split-brain",
+      "cache",
+      "kafka",
+      "dns",
+      "encryption",
+      "secrets",
+      "kubernetes",
+      "network",
+      "scaling",
+      "rollback",
+      "degradation",
+      "compliance",
+      "data-stores",
+      "replication",
+      "rpo-rto"
+    ],
+    "owner": "SRE Lead",
+    "eta": "15m",
+    "classification": "P1 — Sev 1",
+    "complianceFrameworks": [
+      "PCI-DSS v4.0",
+      "RBI",
+      "NPCI UPI",
+      "India Data Localisation"
+    ],
+    "file": "RB-011-partial-degradation.md"
+  },
+  {
+    "id": "RB-012-full-rollback",
+    "title": "RB-012: Full Rollback (Failback to Primary Region)",
+    "tags": [
+      "P2",
+      "failover",
+      "split-brain",
+      "cache",
+      "kafka",
+      "dns",
+      "encryption",
+      "secrets",
+      "kubernetes",
+      "network",
+      "scaling",
+      "rollback",
+      "degradation",
+      "compliance",
+      "data-stores",
+      "replication",
+      "rpo-rto"
+    ],
+    "owner": "Incident Commander / DR Coordinator",
+    "eta": "60m",
+    "classification": "P2 — Planned Maintenance",
+    "complianceFrameworks": [
+      "PCI-DSS v4.0",
+      "RBI",
+      "NPCI UPI",
+      "India Data Localisation"
+    ],
+    "file": "RB-012-full-rollback.md"
+  }
+]

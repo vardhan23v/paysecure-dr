@@ -1,0 +1,187 @@
+[
+  {
+    "id": "architecture-overview",
+    "title": "Architecture Overview: PaySecure Multi-Region Disaster Recovery",
+    "tags": [
+      "failover",
+      "split-brain",
+      "cache",
+      "kafka",
+      "dns",
+      "encryption",
+      "secrets",
+      "kubernetes",
+      "network",
+      "scaling",
+      "rollback",
+      "degradation",
+      "compliance",
+      "data-stores",
+      "replication",
+      "rpo-rto",
+      "architecture"
+    ],
+    "owner": "Architecture Team",
+    "scope": "PaySecure DR platform — all payment processing workloads",
+    "status": "Current",
+    "complianceFrameworks": [
+      "PCI-DSS v4.0",
+      "RBI",
+      "NPCI UPI",
+      "India Data Localisation"
+    ],
+    "file": "architecture-overview.md"
+  },
+  {
+    "id": "database-replication-aurora",
+    "title": "Aurora PostgreSQL Global DB — Replication Strategy",
+    "tags": [
+      "failover",
+      "split-brain",
+      "dns",
+      "encryption",
+      "kubernetes",
+      "network",
+      "scaling",
+      "rollback",
+      "compliance",
+      "data-stores",
+      "replication",
+      "rpo-rto",
+      "architecture"
+    ],
+    "owner": "Database Engineering",
+    "scope": "PaySecure transaction ledger, settlement records, merchant onboarding data",
+    "status": "Current",
+    "complianceFrameworks": [
+      "PCI-DSS v4.0",
+      "RBI",
+      "NPCI UPI",
+      "India Data Localisation"
+    ],
+    "file": "database-replication-aurora.md"
+  },
+  {
+    "id": "database-replication-dynamodb",
+    "title": "DynamoDB Global Tables — Replication Strategy",
+    "tags": [
+      "failover",
+      "split-brain",
+      "cache",
+      "encryption",
+      "network",
+      "scaling",
+      "rollback",
+      "degradation",
+      "compliance",
+      "data-stores",
+      "replication",
+      "rpo-rto",
+      "architecture"
+    ],
+    "owner": "Database Engineering",
+    "scope": "PaySecure session state, idempotency keys, rate-limit counters, configuration tables",
+    "status": "Current",
+    "complianceFrameworks": [
+      "PCI-DSS v4.0",
+      "RBI",
+      "NPCI UPI",
+      "India Data Localisation"
+    ],
+    "file": "database-replication-dynamodb.md"
+  },
+  {
+    "id": "database-replication-elasticache",
+    "title": "ElastiCache Redis Global Datastore — Replication Strategy",
+    "tags": [
+      "failover",
+      "split-brain",
+      "cache",
+      "dns",
+      "encryption",
+      "secrets",
+      "kubernetes",
+      "scaling",
+      "rollback",
+      "degradation",
+      "compliance",
+      "data-stores",
+      "replication",
+      "rpo-rto",
+      "architecture"
+    ],
+    "owner": "Database Engineering",
+    "scope": "PaySecure cached payment instrument metadata, temporary auth tokens, merchant configuration cache",
+    "status": "Current",
+    "complianceFrameworks": [
+      "PCI-DSS v4.0",
+      "RBI",
+      "NPCI UPI",
+      "India Data Localisation"
+    ],
+    "file": "database-replication-elasticache.md"
+  },
+  {
+    "id": "kafka-msk-replication",
+    "title": "Kafka & Amazon MSK Multi-Region Replication Design",
+    "tags": [
+      "failover",
+      "kafka",
+      "dns",
+      "encryption",
+      "kubernetes",
+      "network",
+      "scaling",
+      "rollback",
+      "degradation",
+      "compliance",
+      "data-stores",
+      "replication",
+      "rpo-rto",
+      "architecture"
+    ],
+    "owner": "Platform Engineering",
+    "scope": "",
+    "status": "Approved",
+    "complianceFrameworks": [
+      "PCI-DSS v4.0",
+      "RBI",
+      "NPCI UPI",
+      "India Data Localisation"
+    ],
+    "file": "kafka-msk-replication.md"
+  },
+  {
+    "id": "rpo-rto-justification",
+    "title": "RPO / RTO Justification: PaySecure Multi-Region DR",
+    "tags": [
+      "failover",
+      "split-brain",
+      "cache",
+      "kafka",
+      "dns",
+      "encryption",
+      "secrets",
+      "kubernetes",
+      "network",
+      "scaling",
+      "rollback",
+      "degradation",
+      "compliance",
+      "data-stores",
+      "replication",
+      "rpo-rto",
+      "architecture"
+    ],
+    "owner": "Architecture Team",
+    "scope": "PaySecure DR platform — all payment processing workloads",
+    "status": "Current",
+    "complianceFrameworks": [
+      "PCI-DSS v4.0",
+      "RBI",
+      "NPCI UPI",
+      "India Data Localisation"
+    ],
+    "file": "rpo-rto-justification.md"
+  }
+]

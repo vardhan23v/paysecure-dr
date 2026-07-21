@@ -1,4 +1,4 @@
-# pro3 — PaySecure Disaster Recovery Platform
+# paysecure-dr — PaySecure Disaster Recovery Platform
 
 Multi-region disaster recovery platform for payment processing systems, designed for **RPO < 1 minute** and **RTO < 5 minutes** with active-passive topology across India-centric regions (Mumbai, Hyderabad, Pune).
 
@@ -11,12 +11,12 @@ Multi-region disaster recovery platform for payment processing systems, designed
 
 ## Repository
 
-**[github.com/vardhan23v/pro3](https://github.com/vardhan23v/pro3)** — PaySecure Disaster Recovery Platform
+**[github.com/vardhan23v/paysecure-dr](https://github.com/vardhan23v/paysecure-dr)** — PaySecure Disaster Recovery Platform
 
 ## Project Structure
 
 ```
-pro3/
+paysecure-dr/
 ├── paysecure-portal/       # Primary React + Vite + Tailwind portal
 ├── paysecure-dr-portal/    # DR portal with runbook viewer
 ├── paysecure-dr/           # DR infrastructure & automation

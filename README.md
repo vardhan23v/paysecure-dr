@@ -11,7 +11,7 @@ Multi-region disaster recovery platform for payment processing systems, designed
 
 ## Repository
 
-[https://github.com/vardhan23v/pro3](https://github.com/vardhan23v/pro3)
+**[github.com/vardhan23v/pro3](https://github.com/vardhan23v/pro3)** — PaySecure Disaster Recovery Platform
 
 ## Project Structure
 
